@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../views/home/Main";
+import Home from "../views/home/HomeMain";
 import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
