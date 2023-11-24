@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex justify-between sticky top-0 shadow-sm items-center bg-white px-8 p-5">
+    <div className="flex justify-between sticky top-0 shadow-sm items-center bg-white px-8 p-5 z-10">
       <div>
         <NavLink to="/" activeClassName="active-link">
           <div className="flex gap-2 items-center">
