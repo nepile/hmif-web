@@ -15,3 +15,8 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active-link {
+  color: #807E48;
+  border-bottom: 3px solid #807E48;
+}
