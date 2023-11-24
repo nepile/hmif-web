@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>ASEK</title>
+        <title>Dinamika Bersama Himpunan Mahasiswa Informatika | HMIF</title>
       </Helmet>
 
       <div className="flex justify-between lg:flex-nowrap flex-wrap items-center gap-4 lg:px-14">
