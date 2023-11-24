@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex justify-between shadow-sm items-center bg-white px-8 p-5">
+    <div className="flex justify-between sticky top-0 shadow-sm items-center bg-white px-8 p-5">
       <div>
-        <h1 className="text-xl font-bold">
-          <NavLink to="/" activeClassName="active-link">
-            HMIF
-          </NavLink>
-        </h1>
+        <NavLink to="/" activeClassName="active-link">
+          <div className="flex gap-2 items-center">
+            <img src="images/logo.png" width={40}></img>
+            <h1 className="text-xl font-bold">HMIF</h1>
+          </div>
+        </NavLink>
       </div>
 
       <div className="text-lg gap-x-10 hidden md:flex">
@@ -19,16 +20,28 @@ function Header() {
         >
           Home
         </NavLink>
-        <NavLink to="/events" className={({ isActive }) => (isActive ? "active-link" : "")}>
+        <NavLink
+          to="/events"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
           Events
         </NavLink>
-        <NavLink to="/news" className={({ isActive }) => (isActive ? "active-link" : "")}>
+        <NavLink
+          to="/news"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
           News
         </NavLink>
-        <NavLink to="/aspirations" className={({ isActive }) => (isActive ? "active-link" : "")}>
+        <NavLink
+          to="/aspirations"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
           Aspirations
         </NavLink>
-        <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : "")}>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
           About Us
         </NavLink>
       </div>

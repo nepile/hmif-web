@@ -9,7 +9,7 @@ function Home() {
         <title>Dinamika Bersama Himpunan Mahasiswa Informatika | HMIF</title>
       </Helmet>
 
-      <div className="flex justify-between lg:flex-nowrap flex-wrap items-center gap-4 lg:px-14">
+      <div className="flex bg-radial-gradient px-6 py-8 justify-between lg:flex-nowrap flex-wrap items-center gap-4 lg:px-14 lg:py-0 py-0">
         <div className="w-100 lg:w-1/2">
           <p className="text-lg mb-1 first-color">Universitas Sanata Dharma</p>
           <h1 className="text-3xl font-bold lg:text-5xl mb-3">
