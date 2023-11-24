@@ -19,28 +19,16 @@ function Header() {
         >
           Home
         </NavLink>
-        <NavLink
-          to="/events"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+        <NavLink to="/events" className={({ isActive }) => (isActive ? "active-link" : "")}>
           Events
         </NavLink>
-        <NavLink
-          to="/news"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+        <NavLink to="/news" className={({ isActive }) => (isActive ? "active-link" : "")}>
           News
         </NavLink>
-        <NavLink
-          to="/aspirations"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+        <NavLink to="/aspirations" className={({ isActive }) => (isActive ? "active-link" : "")}>
           Aspirations
         </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
+        <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : "")}>
           About Us
         </NavLink>
       </div>

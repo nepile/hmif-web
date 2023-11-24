@@ -1,0 +1,17 @@
+.first-color {
+    color: #807E48;
+}
+
+.second-color {
+    color: #ECEAB3;
+}
+
+.first-bg {
+    background: #ECEAB3;
+    color: #000;
+}
+
+.second-bg {
+    background: #807E48;
+    color: #fff;
+}
