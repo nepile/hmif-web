@@ -15,3 +15,7 @@
     background: #807E48;
     color: #fff;
 }
+
+.bg-radial-gradient {
+    background-image: radial-gradient(circle at 12% 55%,rgba(236,150,243,.15),hsla(0,0%,100%,0) 20%),radial-gradient(circle at 85% 33%,rgba(236,234,179,.175),hsla(0,0%,100%,0)   25%);
+} 
