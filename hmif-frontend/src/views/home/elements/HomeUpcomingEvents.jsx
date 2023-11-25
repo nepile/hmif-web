@@ -18,7 +18,7 @@ function HomeUpcomingEvents() {
           <div className="col-span-9 rounded-lg bg-gray-100 h-full flex justify-center items-center">
             core event
           </div>
-          <div className="col-span-9 lg:col-span-3 grid grid-row-1 gap-y-5">
+          <div className="col-span-9 lg:col-span-3 grid grid-rows-1 gap-y-5">
             <div className="bg-gray-100 h-48 flex rounded-lg justify-center items-center">
               event1
             </div>
