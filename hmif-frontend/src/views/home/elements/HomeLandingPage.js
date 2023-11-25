@@ -25,7 +25,7 @@ function HomeLandingPage() {
           </div>
         </div>
 
-        <div data-aos="fade-zoom-inn">
+        <div data-aos="fade-zoom-in">
           <img
             src="/images/asset1.png"
             style={{ height: "100%", width: "100%", objectFit: "cover" }}

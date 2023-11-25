@@ -1,7 +1,7 @@
 function HomeUpcomingEvents() {
   return (
     <>
-      <div className="grid gap-10 flex flex-col px-6 py-8 lg:px-14 lg:py-0 mb-10">
+      <div className="grid gap-10 flex flex-col px-6 py-8 lg:px-14 lg:py-0">
         <div className="flex flex-col lg:flex-row justify-center lg:items-center">
           <div className="px-2 text-center">
             <p className="text-4xl font-bold mb-3">
@@ -18,7 +18,7 @@ function HomeUpcomingEvents() {
           <div className="col-span-9 rounded-lg bg-gray-100 h-full flex justify-center items-center">
             core event
           </div>
-          <div className="col-span-8 lg:col-span-3 grid grid-row-1 gap-y-5">
+          <div className="col-span-9 lg:col-span-3 grid grid-row-1 gap-y-5">
             <div className="bg-gray-100 h-48 flex rounded-lg justify-center items-center">
               event1
             </div>
