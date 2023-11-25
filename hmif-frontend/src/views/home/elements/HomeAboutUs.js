@@ -1,13 +1,16 @@
+import CardPengurus from "../../../components/CardPengurus";
+
 function HomeAboutUs() {
   return (
     <>
-      <div className="grid gap-10 flex flex-col px-6 py-8 first-bg">
-        <div className="flex flex-col lg:flex-row justify-center lg:items-center">
-          <div className="px-2 text-center">
-            <p className="text-4xl font-bold mb-3">
-              <span className="border-b-4 first-border-color">About</span> HMIF
-            </p>
-          </div>
+      <div className="flex flex-col justify-center items-center gap-10 flex flex-col py-8 first-bg">
+        <div className="w-[50%] h-10 bg-white"></div>
+        <div className="w-[60%] h-[500px] bg-white"></div>
+        <div className="w-full h-[470px] grid grid-cols-12 gap-x-10">
+          <CardPengurus />
+          <CardPengurus />
+          <CardPengurus />
+          <CardPengurus />
         </div>
       </div>
     </>
