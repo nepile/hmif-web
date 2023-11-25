@@ -3,6 +3,7 @@ import Home from "../views/home/HomeMain";
 import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
+import Footer from "../components/Footer";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+
+        <Footer />
       </div>
     </Router>
   );
