@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import HomeUpcomingEvents from "./elements/HomeUpcomingEvents";
 import HomeLandingPage from "./elements/HomeLandingPage";
 import HomeAboutUs from "./elements/HomeAboutUs";
+import HomeNews from "./elements/HomeNews";
 
 function Home() {
   return (
@@ -16,6 +17,8 @@ function Home() {
       <HomeUpcomingEvents />
 
       <HomeAboutUs />
+
+      <HomeNews />
     </div>
   );
 }
