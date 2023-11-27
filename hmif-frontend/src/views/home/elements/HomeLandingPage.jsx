@@ -1,35 +1,43 @@
 function HomeLandingPage() {
   return (
     <>
-      <div className="flex bg-radial-gradient px-6 py-8 justify-between lg:flex-nowrap flex-wrap items-center gap-4 lg:px-14 lg:py-20">
-        <div data-aos="fade-up" className="w-100 lg:w-1/2">
-          <p className="text-lg mb-1 first-color">Universitas Sanata Dharma</p>
-          <h1 className="text-3xl font-bold lg:text-5xl mb-3">
-            Dinamika Bersama Himpunan Mahasiswa Informatika
-          </h1>
-          <p className="w-80 text-sm mb-8">
-            Website Himpunan Mahasiswa Informatika bertujuan untuk menampung
-            aspirasi Mahasiswa Informatika dan informasi seputar
-            kegiatan-kegiatan yang akan dilaksanakan.
-          </p>
-          <div>
-            <a
-              href="events"
-              className="first-bg text-lg font-bold px-5 py-3 rounded-md me-3"
-            >
-              Our Events
-            </a>
-            <a href="about" className="px-5 text-lg py-2 rounded-md">
-              About Us
-            </a>
+      <div className="flex justify-center py-16 bg-radial-gradient">
+        <div className="w-[1300px] grid grid-cols-12 justify-between items-center">
+          <div data-aos="fade-up" className="col-span-6">
+            <p className="text-2xl first-color">Universitas Sanata Dharma</p>
+            <h1 className="text-xl font-bold lg:text-5xl my-4">
+              Dinamika Bersama{" "}
+              <span className="customUnderline2">
+                Himpunan Mahasiswa Informatika
+              </span>
+            </h1>
+            <p className="w-[500px] text-lg my-10">
+              Website{" "}
+              <span className="customUnderline2">
+                Himpunan Mahasiswa Informatika
+              </span>{" "}
+              bertujuan untuk menampung aspirasi Mahasiswa Informatika dan
+              informasi seputar kegiatan-kegiatan yang akan dilaksanakan.
+            </p>
+            <div>
+              <a
+                href="events"
+                className="first-bg text-lg font-bold px-5 py-3 rounded-md me-3"
+              >
+                Our Events
+              </a>
+              <a href="about" className="px-5 text-lg py-2 rounded-md">
+                About Us
+              </a>
+            </div>
           </div>
-        </div>
-
-        <div data-aos="fade-zoom-in">
-          <img
-            src="/images/asset1.png"
-            style={{ height: "100%", width: "100%", objectFit: "cover" }}
-          ></img>
+          <div data-aos="fade-zoom-in" className="col-span-6">
+            <img
+              className="w-full"
+              src="/images/asset1.png"
+              alt="Himpunan Mahasiswa Informatika"
+            ></img>
+          </div>
         </div>
       </div>
     </>
