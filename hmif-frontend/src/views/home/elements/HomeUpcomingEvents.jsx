@@ -1,9 +1,9 @@
 function HomeUpcomingEvents() {
   return (
     <>
-      <div className="flex justify-center">
-        <div className="w-[1300px] flex flex-col justify-center items-center">
-          <div className="flex flex-col lg:flex-row justify-center lg:items-center">
+      <div className="flex justify-center pb-16">
+        <div className="w-[90%] flex flex-col justify-center items-center">
+          <div className="flex flex-row justify-center items-center">
             <div className="px-2 text-center">
               <p className="text-4xl font-bold mb-3">
                 Upcoming <span className="customUnderline2">Events</span>
@@ -14,7 +14,7 @@ function HomeUpcomingEvents() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-10 grid-rows-3 gap-7 h-[600px] mt-14">
+          <div className="grid grid-cols-10 grid-rows-3 gap-7 lg:h-[600px] h-auto mt-14 w-fit">
             <div className="lg:col-span-7 col-span-10 row-span-3 relative">
               <img
                 className="w-full h-full object-cover rounded-lg"
@@ -28,7 +28,7 @@ function HomeUpcomingEvents() {
                 16 <br /> Sept
               </p>
             </div>
-            <div className="lg:col-span-3 col-span-10 flex flex-col gap-y-7 row-span-1">
+            <div className="lg:col-span-3 col-span-10 flex lg:flex-col md:flex-row flex-col justify-between lg:gap-y-7 gap-7 row-span-1">
               <div className="w-full h-full object-cover relative">
                 <img
                   className="w-full h-full object-cover rounded-lg"

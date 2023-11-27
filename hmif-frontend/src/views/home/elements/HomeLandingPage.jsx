@@ -1,17 +1,17 @@
 function HomeLandingPage() {
   return (
     <>
-      <div className="flex justify-center py-16 bg-radial-gradient">
-        <div className="w-[1300px] grid grid-cols-12 justify-between items-center">
-          <div data-aos="fade-up" className="col-span-6">
+      <div className="flex justify-center lg:py-16 py-44 bg-radial-gradient">
+        <div className="w-[90%] grid grid-cols-12 justify-between items-center">
+          <div data-aos="fade-up" className="lg:col-span-6 md:col-span-10 col-span-12">
             <p className="text-2xl first-color">Universitas Sanata Dharma</p>
-            <h1 className="text-xl font-bold lg:text-5xl my-4">
+            <h1 className="text-3xl font-bold lg:text-5xl my-4">
               Dinamika Bersama{" "}
               <span className="customUnderline2">
                 Himpunan Mahasiswa Informatika
               </span>
             </h1>
-            <p className="w-[500px] text-lg my-10">
+            <p className="md:w-[500px] text-lg">
               Website{" "}
               <span className="customUnderline2">
                 Himpunan Mahasiswa Informatika
@@ -19,7 +19,7 @@ function HomeLandingPage() {
               bertujuan untuk menampung aspirasi Mahasiswa Informatika dan
               informasi seputar kegiatan-kegiatan yang akan dilaksanakan.
             </p>
-            <div>
+            <div className="mt-10">
               <a
                 href="events"
                 className="first-bg text-lg font-bold px-5 py-3 rounded-md me-3"
@@ -31,7 +31,7 @@ function HomeLandingPage() {
               </a>
             </div>
           </div>
-          <div data-aos="fade-zoom-in" className="col-span-6">
+          <div data-aos="fade-zoom-in" className="lg:col-span-6 md:col-span-6 col-span-9 lg:pt-0 pt-10">
             <img
               className="w-full"
               src="/images/asset1.png"

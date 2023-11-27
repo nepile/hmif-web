@@ -10,11 +10,11 @@ function Header() {
 
   return (
     <div
-      className={`w-full flex justify-center items-center fixed top-0 shadow-sm transition-all bg-white z-10 ${
-        isOpen ? "h-96 px-5 py-7" : "py-7"
+      className={`w-full fixed top-0 shadow-sm transition-all bg-white z-10 ${
+        isOpen ? "h-96 px-5 py-7" : "py-7 px-5"
       }`}
     >
-      <div className="flex justify-between items-center w-[1300px]">
+      <div className="w-full flex justify-between items-center">
         <div>
           <NavLink to="/" activeClassName="active-link">
             <div className="flex gap-2 items-center">
