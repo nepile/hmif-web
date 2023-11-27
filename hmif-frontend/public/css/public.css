@@ -42,3 +42,7 @@
 .customUnderline {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #fff 50%);
 }
+
+.customUnderline2 {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #ECEAB3 50%);
+}
