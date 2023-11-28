@@ -31,7 +31,7 @@ function HomeLandingPage() {
               </a>
             </div>
           </div>
-          <div data-aos="fade-zoom-in" className="lg:col-span-6 md:col-span-6 col-span-9 lg:pt-0 pt-10">
+          <div data-aos="fade-zoom-in" className="lg:col-span-6 md:col-span-6 sm:col-span-8 ex:col-span-12 lg:pt-0 pt-10">
             <img
               className="w-full"
               src="/images/asset1.png"

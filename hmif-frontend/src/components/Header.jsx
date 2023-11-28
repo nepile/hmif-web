@@ -17,9 +17,13 @@ function Header() {
       <div className="w-full flex justify-between items-center">
         <div>
           <NavLink to="/" activeClassName="active-link">
-            <div className="flex gap-2 items-center">
-              <img src="images/logo.png" width={40}></img>
-              <h1 className="text-xl font-bold">HMIF</h1>
+            <div className="md:w-14 w-10 flex gap-2 items-center">
+              <img
+                className="w-full"
+                alt="Logo Himpunan Mahasiswa Informatika"
+                src="images/logo.png"
+              ></img>
+              <p className="text-2xl font-bold">HMIF</p>
             </div>
           </NavLink>
         </div>
@@ -58,7 +62,7 @@ function Header() {
         </div>
 
         <div className="hidden md:flex">
-          <button className="bg-gray-800 text-white px-6 py-1 rounded-md hover:bg-gray-700 focus:outline-none focus:shadow-outline">
+          <button className="bg-gray-800 text-white px-6 py-1 rounded-md hover:bg-gray-700 focus:outline-none focus:shadow-outline text-xl">
             <NavLink to="/login" activeClassName="active-link">
               Login
             </NavLink>
