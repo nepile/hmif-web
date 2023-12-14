@@ -2,19 +2,19 @@ function HomeLandingPage() {
   return (
     <>
       <div className="flex justify-center items-center flex-col lg:py-16 py-32 bg-radial-gradient">
-        <div className="w-[90%] grid grid-cols-12 justify-between items-center">
+        <div className="w-[90%] md:flex md:flex-col lg:grid grid-cols-12 justify-between items-center">
           <div
             data-aos="fade-up"
-            className="lg:col-span-6 md:col-span-10 col-span-12"
+            className="lg:block lg:col-span-6 md:w-[80%] md:flex md:flex-col md:items-center col-span-12"
           >
             <p className="text-2xl first-color">Universitas Sanata Dharma</p>
-            <h1 className="text-5xl font-bold lg:text-5xl my-4">
+            <h1 className="text-5xl md:text-center lg:text-start font-bold lg:text-5xl my-4">
               Dinamika Bersama{" "}
               <span className="customUnderline2">
                 Himpunan Mahasiswa Informatika
               </span>
             </h1>
-            <p className="lg:w-[500px] text-lg">
+            <p className="lg:w-[500px] text-lg md:text-center lg:text-start">
               Website{" "}
               <span className="customUnderline2">
                 Himpunan Mahasiswa Informatika
