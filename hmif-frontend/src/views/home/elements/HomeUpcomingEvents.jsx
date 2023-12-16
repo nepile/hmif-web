@@ -14,51 +14,90 @@ function HomeUpcomingEvents() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-10 grid-rows-3 gap-7 lg:h-[600px] h-auto mt-14 w-fit">
-            <div className="lg:col-span-7 col-span-10 row-span-3 relative">
-              <img
-                className="w-full h-full object-cover rounded-lg"
-                src="images/dummyEvent.png"
-                alt=""
-              />
-              <p className="absolute -top-5 left-5 bg-slate-800 text-white text-center font-bold text-xl p-3 rounded-md">
-                Lastest
+
+          <div className="grid grid-cols-10 grid-rows-3 gap-x-7 gap-y-16 lg:gap-y-7 lg:h-[600px] h-auto mt-14 w-fit">
+            <a
+              href=""
+              className="lg:col-span-7 col-span-12 row-span-3 relative"
+            >
+              <div className="w-full h-full">
+                <img
+                  className="h-full w-full object-cover rounded-lg"
+                  src="images/itdaysdummy.jpg"
+                  alt=""
+                />
+              </div>
+              <p className="absolute -top-5 right-2 bg-slate-800 text-white text-center font-bold text-xl p-3 rounded-md">
+                16 Nov 2024
               </p>
-              <p className="absolute -top-5 right-5 bg-slate-800 text-white text-center font-bold text-3xl p-5 rounded-md">
-                16 <br /> Sept
-              </p>
-            </div>
-            <div className="lg:col-span-3 col-span-10 flex lg:flex-col md:flex-row flex-col justify-between lg:gap-y-7 gap-7 row-span-1">
-              <div className="w-full h-full object-cover relative">
+              <div className="innerShadowCard">
+                <div className="absolute px-4 bottom-5 text-start text-light">
+                  <strong className="lg:text-4xl text-2xl">
+                    IT Days 2024: Infinity to Beyond
+                  </strong>
+                  <p className="font-thin hidden lg:inline-block">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <div className="lg:col-span-3 col-span-12 gap-y-16 lg:gap-y-7 flex lg:flex-col md:flex-row flex-col justify-between lg:gap-y-7 gap-7 row-span-1">
+              <a href="" className="w-full h-full row-span-3 relative">
                 <img
                   className="w-full h-full object-cover rounded-lg"
-                  src="images/dummyEvent.png"
+                  src="images/porsidummy.jpeg"
                   alt=""
                 />
-                <p className="absolute -top-5 right-5 bg-slate-800 text-white text-center font-bold text-xl p-2 rounded-md">
-                  16 <br /> Sept
+                <p className="absolute -top-5 right-2 bg-slate-800 text-white text-center font-bold text-xl p-3 rounded-md">
+                  02 Feb 2024
                 </p>
-              </div>
-              <div className="w-full h-full object-cover relative">
+                <div className="innerShadowCard">
+                  <div className="absolute px-4 bottom-5 text-start text-light">
+                    <strong className="lg:text-lg text-2xl">
+                      Porsi 2024: Semangat seni dan olahraga!
+                    </strong>
+                  </div>
+                </div>
+              </a>
+              <a href="" className="w-full h-full object-cover relative">
                 <img
                   className="w-full h-full object-cover rounded-lg"
-                  src="images/dummyEvent.png"
+                  src="images/iasddummy.png"
                   alt=""
                 />
-                <p className="absolute -top-5 right-5 bg-slate-800 text-white text-center font-bold text-xl p-2 rounded-md">
-                  16 <br /> Sept
+                <p className="absolute -top-5 right-2 bg-slate-800 text-white text-center font-bold text-xl p-3 rounded-md">
+                  12 Sept 2024
                 </p>
-              </div>
-              <div className="w-full h-full object-cover relative">
+                <div className="innerShadowCard">
+                  <div className="absolute px-4 bottom-5 text-start text-light">
+                    <strong className="lg:text-lg text-2xl">
+                      IASD 2024: Perkuat Relasi antar alumni Informatika USD
+                    </strong>
+                  </div>
+                </div>
+              </a>
+              <a href="" className="w-full h-full object-cover relative">
                 <img
                   className="w-full h-full object-cover rounded-lg"
-                  src="images/dummyEvent.png"
+                  src="images/ifbelajardummy.jpeg"
                   alt=""
                 />
-                <p className="absolute -top-5 right-5 bg-slate-800 text-white text-center font-bold text-xl p-2 rounded-md">
-                  16 <br /> Sept
+                <p className="absolute -top-5 right-2 bg-slate-800 text-white text-center font-bold text-xl p-3 rounded-md">
+                  18 Sept 2024
                 </p>
-              </div>
+                <div className="innerShadowCard">
+                  <div className="absolute px-4 bottom-5 text-start text-light">
+                    <strong className="lg:text-lg text-2xl">
+                      IF Belajar 2024: Jago Coding Mulai Dari Sekarang!
+                    </strong>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
