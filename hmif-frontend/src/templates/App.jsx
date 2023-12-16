@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../views/home/HomeMain";
+
 import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
+import Home from "../views/home/HomeMain";
+import News from "../views/news/NewsMain";
 
 function App() {
   useEffect(() => {
@@ -16,6 +18,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/news" element={<News />} />
         </Routes>
 
         <Footer />
