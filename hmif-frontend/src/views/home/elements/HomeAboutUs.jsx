@@ -10,7 +10,7 @@ function HomeAboutUs() {
         <div className="xl:w-[60%] xl:h-[500px] lg:h-[410px] md:w-[70%] md:h-[300px] sm:h-[330px] sms:h-[250px] ex:w-[90%] ex:h-[200px]">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/pahhCxLKTFI?si=Es12O8SsmF8MdYO8"
+            src="https://www.youtube.com/embed/OpCgL59KL4U?si=bU0BszQP6u5Zijv4"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
