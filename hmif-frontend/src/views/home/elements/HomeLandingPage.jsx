@@ -2,13 +2,15 @@ function HomeLandingPage() {
   return (
     <>
       <div className="flex justify-center items-center flex-col lg:py-16 py-32 bg-radial-gradient">
-        <div className="w-[90%] md:flex md:flex-col lg:grid grid-cols-12 justify-between items-center">
+        <div className="w-[90%] md:flex md:flex-col lg:grid grid-cols-12 justify-between items-center lg:mt-10">
           <div
             data-aos="fade-up"
-            className="lg:block lg:col-span-6 md:w-[80%] md:flex md:flex-col md:items-center col-span-12"
+            className="lg:block lg:col-span-7 md:w-[80%] md:flex md:flex-col md:items-center col-span-12"
           >
-            <p className="text-2xl first-color">Universitas Sanata Dharma</p>
-            <h1 className="text-5xl md:text-center lg:text-start font-bold lg:text-5xl my-4">
+            <p className="text-2xl first-color mt-4 lg:mt-0">
+              Universitas Sanata Dharma
+            </p>
+            <h1 className="text-5xl md:text-center lg:text-start font-bold my-3">
               Dinamika Bersama{" "}
               <span className="customUnderline2">
                 Himpunan Mahasiswa Informatika
@@ -36,46 +38,55 @@ function HomeLandingPage() {
           </div>
           <div
             data-aos="fade-zoom-in"
-            className="lg:col-span-6 md:col-span-6 sm:col-span-8 ex:col-span-12 lg:pt-0 pt-10"
+            className="lg:col-span-5 md:col-span-5 sm:col-span-8 ex:col-span-12 lg:pt-0 pt-10"
           >
             <img
-              className="w-full"
+              className="w-full object-cover"
               src="/images/asset1.png"
               alt="Himpunan Mahasiswa Informatika"
             ></img>
           </div>
         </div>
-        <div className="w-[90%] grid lg:items-end grid-cols-1 lg:grid-cols-2 gap-10 bg-gray-100 p-10 rounded-sm">
-          <div className="mb-5">
-            <p className="text-4xl font-bold">Bersinergi Bersama</p>
-            <p className="text-2xl first-color">
+
+        <div className="w-[100%] lg:w-[90%] md:flex md:flex-col lg:grid grid-cols-12 justify-between lg:items-end gap-10 bg-gray-100 p-10 rounded-sm">
+          <div className="mb-5 col-span-6 lg:text-left text-center">
+            <p className="text-3xl lg:text-4xl font-bold">Bersinergi Bersama</p>
+            <p className="text-xl lg:text-2xl first-color">
               Instansi dan Organisasi terkait.
             </p>
           </div>
 
-          <div className="w-[90%] grid grid-cols-3 gap-10 mt-5">
-            <div className="aspect-w-1 aspect-h-1">
+          <a
+            href="https://www.usd.ac.id/"
+            className="grid grid-cols-3 gap-x-7 col-span-6"
+            target="blank"
+          >
+            <div className="w-20 lg:w-32">
               <img
-                src="https://upload.wikimedia.org/wikipedia/id/thumb/7/7a/USD_LOGO.svg/1200px-USD_LOGO.svg.png"
+                src="/images/usd_logo.png"
                 className="w-full h-full object-cover"
                 alt="USD Logo"
               />
             </div>
-            <div className="aspect-w-1 aspect-h-1">
+            <a
+              href="https://usd.ac.id/mahasiswa/bem/bemfst/"
+              className="w-20 lg:w-32"
+              target="blank"
+            >
               <img
                 src="/images/bemfst_logo.png"
                 className="w-full h-full object-cover"
                 alt="BEMFST Logo"
               />
-            </div>
-            <div className="aspect-w-1 aspect-h-1">
+            </a>
+            <a href="" className="w-20 lg:w-32">
               <img
                 src="/images/logo.png"
                 className="w-full h-full object-cover"
                 alt="Logo"
               />
-            </div>
-          </div>
+            </a>
+          </a>
         </div>
       </div>
     </>
