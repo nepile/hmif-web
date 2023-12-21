@@ -5,6 +5,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Home from "../views/home/HomeMain";
+import Events from "../views/events/EventsMain";
 import News from "../views/news/NewsMain";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/news" element={<News />} />
         </Routes>
 
