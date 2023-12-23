@@ -27,3 +27,7 @@ Route::get('/news', function () {
 Route::get('/events', function () {
     return Inertia::render('Events/EventMain');
 });
+
+Route::get('/about', function () {
+    return Inertia::render('AboutUs/AboutUsMain');
+});
